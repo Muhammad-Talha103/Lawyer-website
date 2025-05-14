@@ -60,7 +60,7 @@ interface Testimonial {
 }
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
-  const { name, company, image, testimonial: text, rating } = testimonial
+  const { name, company,  testimonial: text, rating } = testimonial
 
   return (
     <div className="flex flex-col items-center">
