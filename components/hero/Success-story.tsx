@@ -85,7 +85,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
         </div>
 
         <div className="relative">
-          <span className="text-gray-200 text-6xl absolute top-0 left-0">"</span>
+          <span className="text-gray-200 text-6xl absolute top-0 left-0"></span>
           <p className="text-gray-700 relative z-10 pl-6 pt-2">{text}</p>
         </div>
       </div>
